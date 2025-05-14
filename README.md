@@ -1,23 +1,22 @@
-# Duygu-Analizi-Web-Uygulamas-
-🤖 Kullanılan Yapay Zeka Modülü
-🎯 Proje Amacı
-Bu projede kullanıcıdan alınan metinlere göre duygusal durumun (mutlu, üzgün, öfkeli, vb.) analizini yapan bir web tabanlı uygulama geliştirilmiştir. Proje, metin üzerinden çok sınıflı duygu analizi yaparak kullanıcılara yazdıkları ifadelerin hangi duyguyu taşıdığını anlık olarak göstermektedir.
+# Emotion-Analysis-Web-Application-
+🤖 Artificial Intelligence Module Used
+🎯 Project Objective
+In this project, a web-based application that analyzes the emotional state (happy, sad, angry, etc.) according to the texts received from the user has been developed. The project performs multi-class emotion analysis on the text and instantly shows the users which emotion the expressions they write carry.
 
 
-Model: Fine-tuned bir LLM (örneğin DistilBERT) kullanılmıştır.
+Model: A fine-tuned LLM (e.g. DistilBERT) was used.
 
-Veri Seti: GoEmotions veri seti kullanılarak model eğitilmiştir.
+Dataset: The model is trained using the GoEmotions dataset.
 
-Çıktı: Kullanıcının girdiği metin 27 farklı duygu kategorisinden biri veya birkaçıyla eşleştirilir.
+Output: User-entered text is matched to one or more of 27 different emotion categories.
 
-Model sadece tahmin (inference) yapar.
+The model only makes inference.
 
-💻 Web Uygulaması Özellikleri
-Kullanıcı arayüzü: Basit ve kullanıcı dostu bir form (text input)
+💻 Web Application Features
+User interface: Simple and user-friendly form (text input)
 
-Girdi: Kullanıcı metni
+Input User text
 
-Çıktı: Modelin tahmini ettiği duygu(lar), görsel olarak gösterilir
+Output: The emotion(s) predicted by the model, displayed visually
 
-Geliştirme teknolojileri: Örneğin Flask (backend) + HTML/CSS (frontend) kullanılmıştır
-
+Development technologies: For example Flask (backend) + HTML/CSS (frontend) used
